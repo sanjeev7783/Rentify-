@@ -42,9 +42,9 @@ export default function AppointmentsPage() {
         
         // Filter appointments for current user and add property details
         const userAppointments = appointmentsData
-          .filter((apt: Appointment) => apt.userId === user?.id)
+          .filter((apt: Appointment) => apt.userId == user?.id || apt.userId === user?.id)
           .map((apt: Appointment) => {
-            const property = propertiesData.find((p: any) => p.id === apt.propertyId)
+            const property = propertiesData.find((p: any) => p.id == apt.propertyId || p.id === apt.propertyId)
             return { ...apt, property }
           })
         

@@ -26,6 +26,9 @@ export default function LoginPage() {
   const mockUsers = [
     { id: 1, role: "admin", name: "Admin Alice", email: "admin1@rentify.com", phone: "1234567800", password: "admin123", verified: true },
     { id: 4, role: "owner", name: "Owner Diana", email: "owner4@rentify.com", phone: "1234567803", password: "owner123", verified: true },
+    { id: 5, role: "owner", name: "Owner Ethan", email: "owner5@rentify.com", phone: "1234567804", password: "owner123", verified: true },
+    { id: 6, role: "owner", name: "Owner Fiona", email: "owner6@rentify.com", phone: "1234567805", password: "owner123", verified: true },
+    { id: 7, role: "owner", name: "Owner George", email: "owner7@rentify.com", phone: "1234567806", password: "owner123", verified: true },
     { id: 8, role: "tenant", name: "Tenant Hannah", email: "tenant8@rentify.com", phone: "1234567807", password: "tenant123", verified: true },
   ]
 

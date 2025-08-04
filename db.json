@@ -136,6 +136,15 @@
       "password": "123123",
       "role": "owner",
       "verified": false
+    },
+    {
+      "id": "5b30",
+      "name": "test1",
+      "email": "test1@gmail.com",
+      "phone": "8956231425",
+      "password": "123056",
+      "role": "tenant",
+      "verified": false
     }
   ],
   "properties": [
@@ -733,7 +742,7 @@
       "propertyId": "5",
       "userId": 8,
       "ownerId": 6,
-      "status": "pending",
+      "status": "confirmed",
       "scheduledDate": "2025-08-08",
       "scheduledTime": "12:00",
       "message": "i want an appointment",
@@ -760,6 +769,28 @@
       "scheduledTime": "12:00",
       "message": "",
       "timestamp": "2025-07-31T20:54:01.856Z"
+    },
+    {
+      "id": "bbca",
+      "propertyId": "5",
+      "userId": "5b30",
+      "ownerId": 6,
+      "status": "pending",
+      "scheduledDate": "2025-08-06",
+      "scheduledTime": "14:00",
+      "message": "",
+      "timestamp": "2025-08-04T20:44:56.727Z"
+    },
+    {
+      "id": "696e",
+      "propertyId": "12",
+      "userId": "5b30",
+      "ownerId": 5,
+      "status": "confirmed",
+      "scheduledDate": "2025-08-19",
+      "scheduledTime": "14:00",
+      "message": "",
+      "timestamp": "2025-08-04T21:02:39.097Z"
     }
   ]
 }
