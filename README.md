@@ -187,7 +187,7 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Developer
 
 **Sanjeev Kumar**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@sanjeev7783](https://github.com/sanjeev7783)
 - Email: sanjeev77830@gmail.com
 
 ## 🙏 Acknowledgments
